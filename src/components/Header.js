@@ -59,7 +59,6 @@ const Header = () => {
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={compare} alt="compare" />
-                    {/* <img src={compare} alt="compare" /> */}
                     <p className="mb-0">
                       Comparer <br /> Articles
                     </p>
@@ -83,7 +82,6 @@ const Header = () => {
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={user} alt="user" />
-                    {/* <img src={user} alt="user" /> */}
                     <p className="mb-0">
                       Connexion <br /> Mon compte
                     </p>
@@ -95,7 +93,6 @@ const Header = () => {
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={cart} alt="cart" />
-                    {/* <img src={cart} alt="cart" /> */}
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">1000 Fcfa</p>
@@ -135,12 +132,12 @@ const Header = () => {
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          Another action
+                          Une autre action
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          Something else here
+                          Autre chose ici
                         </Link>
                       </li>
                     </ul>
