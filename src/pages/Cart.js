@@ -32,7 +32,7 @@ const Cart = () => {
                 </div>
               </div>
               <div className="cart-col-2">
-                <h5 className="price">$ 100</h5>
+                <h5 className="price">1500 Fcfa</h5>
               </div>
               <div className="cart-col-3 d-flex align-items-center gap-15">
                 <div>
@@ -57,7 +57,7 @@ const Cart = () => {
           <div className="col-12 py-2 mt-4">
             <div className="d-flex justify-content-between align-items-baseline">
               <Link to="/product" className="button">
-                Continuer à la boutique
+                Continuer en boutique
               </Link>
               <div className="d-flex flex-column align-items-end">
                 <h4>SousTotal: 10 500 FCFA</h4>
