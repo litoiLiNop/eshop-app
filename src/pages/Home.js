@@ -182,7 +182,7 @@ const Home = () => {
       <Container class1="featured-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading">Collections En Vedette</h3>
+            <h3 className="section-heading">Collections A La Une</h3>
           </div>
           <ProductCard />
           <ProductCard />
@@ -280,6 +280,9 @@ const Home = () => {
       </Container>
       <Container class1="marquee-wrapper py-5">
         <div className="row">
+          <div className="col-12">
+            <h3 className="section-heading">Nos partenaires</h3>
+          </div>
           <div className="col-12">
             <div className="marquee-inner-wrapper card-wrapper">
               <Marquee>

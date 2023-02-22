@@ -180,7 +180,7 @@ const OurStore = () => {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center gap-10">
                   <p className="mb-0 d-block" style={{ width: "100px" }}>
-                    Sort By:
+                    Triage:
                   </p>
                   <select
                     name=""
@@ -188,7 +188,7 @@ const OurStore = () => {
                     className="form-control form-select"
                     id=""
                   >
-                    <option value="manual">En Vedette</option>
+                    <option value="manual">A La Une</option>
                     <option value="best-selling">Meilleure Vente</option>
                     <option value="title-ascending">A-Z</option>
                     <option value="title-descending">Z-A</option>
